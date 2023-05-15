@@ -1,6 +1,6 @@
-#Returns a given up to row of pascal triangle
-class solution:
-    def generateRows(numRows):
+#Returns a given up to given row of pascal triangle
+class Solution:
+    def generate(self, numRows):
         triangle = []
         row = []
         for i in range(numRows):
@@ -10,5 +10,5 @@ class solution:
             triangle.append(row[:])
         return triangle
 
-    list = generateRows(5)
+    list = generate(5)
     print(list)
