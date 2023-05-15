@@ -1,4 +1,4 @@
-#Returns a given row of pascal triangle
+#Returns a given up to row of pascal triangle
 class solution:
     def generateRows(numRows):
         triangle = []
