@@ -1,4 +1,4 @@
-#Returns a given up to given row of pascal triangle
+#Returns a given up to a given row of pascal triangle
 class Solution:
     def generate(self, numRows):
         triangle = []
@@ -10,5 +10,5 @@ class Solution:
             triangle.append(row[:])
         return triangle
 
-    list = generate(5)
-    print(list)
+triangle = Solution.generate(list, 5)
+print(triangle)
